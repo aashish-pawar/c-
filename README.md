@@ -1,13 +1,17 @@
+//check the number is even or odd 
 #include<stdio.h>
-int main() {
-int i,n;
+int main() 
+{
+int n;
 printf("enter number:");
 scanf ("%d",&n);
-for(i=1;i<=n;i++) {
-if(i%2==0) {
-printf("%d",i);
+if(n%2==0)
+{
+printf("even");
 }
-printf("\n");
+else
+{
+printf("odd");
 }
 return 0;
 }
